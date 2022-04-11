@@ -14,9 +14,10 @@ Description:
 	Write a library that contains ft_printf(), a function that will mimic the original printf().
 
 Requirements:
-	-Don't have to implement buffer management.
-	-Has to include following formats: c, s, p, d, i, u, x, X, %
-	-Can't use libtool, global variables
+	-Don't have to implement buffer management,
+	-Has to include following formats: c, s, p, d, i, u, x, X, %,
+	-Can't use libtool, global variables,
+	-Can't have any memory leaks for obvious reasons,
 	-Has to compile with the following flags: -Wall -Werror -Wextra
 
 Goal of the project:
